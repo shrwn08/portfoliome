@@ -271,11 +271,10 @@ nav {
   gap: 0.75rem;
   color: var(--muted);
   font-size: 0.85rem;
+  overflow: hidden;
 }
 .photo-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  width: 120%;
   background: var(--accent);
   display: flex;
   align-items: center;
@@ -284,6 +283,7 @@ nav {
   font-weight: 800;
   font-size: 1.75rem;
   color: #fff;
+  
 }
 .avail-badge {
   position: absolute;

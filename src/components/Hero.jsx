@@ -1,4 +1,6 @@
 import React from "react";
+import Me from "../assets/me.png"
+
 
 function Hero() {
   return (
@@ -81,8 +83,10 @@ function Hero() {
           </div>
           <div className="hero-photo-wrap fade-up">
             <div className="hero-photo-placeholder">
-              <div className="photo-avatar">SK</div>
-              <span>Shrawan Kumar Singh</span>
+              <div className="photo-avatar">
+                <img src={Me} alt="it's me" style={{"width" : "100%"}}/>
+              </div>
+            
             </div>
             <div className="avail-badge">
               <span className="avail-dot"></span>Available for work
