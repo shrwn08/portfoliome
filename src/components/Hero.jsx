@@ -1,6 +1,6 @@
 import React from "react";
 import Me from "../assets/me.png"
-
+import Resume from "../assets/Shrawan_Resume.pdf"
 
 function Hero() {
   return (
@@ -27,7 +27,7 @@ function Hero() {
               <a href="#projects" className="btn-primary">
                 View My Work ↗
               </a>
-              <a href="mailto:shrwnkumar08@gmail.com" className="btn-outline">
+              <a download href={Resume}  className="btn-outline">
                 Download Resume ↓
               </a>
             </div>
